@@ -1,0 +1,549 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+
+  /* Parallax configuration */
+  overflow-x: hidden;
+  overflow-y: scroll;
+  perspective: 10px;
+  perspective-origin: 0 0;
+  transform-style: preserve-3d;
+}
+
+/* Font */
+body {
+  flex-direction: column;
+  font-family: "harmonia-sans";
+}
+
+/* Navbar */
+.navbar img {
+  height: 53px;
+  width: 196px;
+}
+
+.navbar a {
+  font-weight: bold;
+}
+
+.navbar .btn--demo, .navbar .btn--login {
+  font-family: "harmonia-sans";
+}
+
+/* Icons */
+.icon {
+  height: 30px;
+  width: 30px;
+}
+
+.icon--big {
+  height: 54px;
+  width: 54px;
+}
+
+/* Hero */
+.animated-title {
+  transition: opacity 0.75s;
+  transition-delay: 0.37s;
+}
+
+.hero h1 {
+  font-weight: 600;
+}
+
+/* Brand */
+.brand h2 {
+  font-weight: 600;
+}
+
+.brand {
+  height: 650px;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.brand .description-container {
+  margin-left: 196px;
+  margin-top: 94px;
+  position: absolute;
+  z-index: 10;
+}
+
+.brand .description-container h2 {
+  font-size: 84px;
+  margin: 0;
+}
+
+.brand img:nth-of-type(1) {
+  transform: translateY(350px) translateZ(1px) scale(1);
+  transform-origin: 0 0;
+}
+
+.brand img:nth-of-type(2) {
+  transform: translateX(-565px) translateY(150px) translateZ(1px) scale(1);
+  transform-origin: 0 0;
+}
+
+.brand img:nth-of-type(3) {
+  transform: translateX(600px) translateY(-280px) translateZ(1px) scale(0.30);
+  transform-origin: 0 0;
+}
+
+.brand img:nth-of-type(4) {
+  transform: translateX(980px) translateY(-1800px) translateZ(1px) scale(0.35);
+  transform-origin: 0 0;
+}
+
+/* Benefits */
+.benefits {
+  background-color: #F8F9FA;
+  padding-bottom: 62px;
+  padding-top: 88px;
+}
+
+.benefits h2, .benefits h3 {
+  font-weight: 600;
+}
+
+.benefits ul li {
+  margin-bottom: 24px;
+}
+
+.benefits h2 {
+  text-align: center;
+}
+
+.benefits .cards-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.benefits .cards-container .card {
+  background-color: white;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.12);
+  padding-top: 24px;
+  width: 100%;
+}
+
+.benefits .cards-container .card .header h3 {
+  color: #2565C7;
+  margin-top: 4px;
+}
+
+.benefits .cards-container .card img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits .cards-container .card ul {
+  margin-left: 32px;
+  margin-right: 42px;
+}
+
+.benefits .cards-container .card:nth-last-of-type(2) {
+  margin-left: 38px;
+  margin-right: 38px;
+}
+
+.benefits .cards-container .card h3 {
+  text-align: center;
+}
+
+/* Company features */
+.company-features h2, .company-features h3 {
+  font-weight: 600;
+}
+
+.company-features {
+  padding-left: 128px;
+}
+
+.company-features .description {
+  margin-bottom: 83px;
+  padding-top: 153px;
+}
+
+.company-features .features-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 124px;
+}
+
+.company-features .features-container > img {
+  border-radius: 24px;
+}
+
+.company-features .features-container .feature {
+  display: flex;
+  transition: transform 0.5s;
+  margin-bottom: 32px;
+}
+
+.company-features .features-container .feature:hover {
+  transform: scale(1.05);
+}
+
+.company-features .features-container .feature .image-container {
+  align-items: center;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.12);
+  display: flex;
+  height: 88px;
+  justify-content: center;
+  width: 88px;
+}
+
+.company-features .features-container .feature .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 22px;
+}
+
+.company-features .features-container .feature h3 {
+  color: #2565C7;
+}
+
+.company-features .features-container .feature h3,
+.company-features .features-container .feature p {
+  margin: 0;
+}
+
+/* Collaborator features */
+.collaborator-features h2 {
+  font-weight: 600;
+}
+
+.collaborator-features {
+  height: 1100px;
+}
+
+.collaborator-features .container {
+  height: 1100px;
+  border-bottom-right-radius: 100px;
+  padding-left: 128px;
+}
+
+.collaborator-features .description {
+  margin-bottom: 83px;
+  padding-top: 153px;
+}
+
+.collaborator-features .features-container {
+  display: flex;
+}
+
+.collaborator-features .features-container > img {
+  margin-right: 56px;
+}
+
+.collaborator-features .features-container .feature {
+  display: flex;
+  transition: transform 0.5s;
+  margin-bottom: 32px;
+}
+
+
+.collaborator-features .features-container .feature:hover {
+  transform: scale(1.05);
+}
+
+.collaborator-features .features-container .feature h2,
+.collaborator-features .features-container .feature p {
+  margin: 0;
+}
+
+.collaborator-features .features-container .feature .text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 22px;
+}
+
+.collaborator-features .features-container .image-container {
+  align-items: center;
+  background: white;
+  border-radius: 18px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.12);
+  display: flex;
+  height: 88px;
+  justify-content: center;
+  width: 88px;
+}
+
+/* Client section */
+.client-section h2 {
+  font-weight: 600;
+}
+
+/* Benefits section */
+.benefits-section h2 {
+  font-weight: 600;
+}
+
+.benefits-section {
+  height: 400px;
+  padding-top: 213px;
+  text-align: center;
+  transform-style: preserve-3d;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.benefits-section h2 {
+  margin: 0;
+}
+
+.benefits-section h2:last-of-type {
+  margin-bottom: 50px;
+}
+
+.benefits-section button {
+  border-radius: 50px;
+  padding: 11px 20px;
+}
+
+.benefits-section img:nth-of-type(1) {
+  transform: translateX(-550px) translateY(20px) translateZ(1px) scale(0.25);
+  transform-origin: 0 0;
+}
+
+.benefits-section img:nth-of-type(2) {
+  transform: translateY(-950px) translateZ(1px) scale(0.20);
+  transform-origin: 0 0;
+}
+
+.benefits-section img:nth-of-type(3) {
+  transform: translateX(500px) translateY(-4100px) translateZ(1px) scale(0.35);
+  transform-origin: 0 0;
+}
+
+.benefits-section img:nth-of-type(4) {
+  transform-origin: 0 0;
+  transform: translateX(690px) translateY(-5500px) translateZ(1px) scale(0.20);
+}
+
+/** Contact **/
+.contact-form-section {
+  display: flex;
+  justify-content: center;
+  padding-top: 109px;
+  padding-bottom: 56px;
+}
+
+.contact-form-section .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 64px;
+}
+
+.contact-form-section .description h2 {
+  margin: 0;
+}
+
+.contact-form-section .form-card {
+  background: white;
+  border-radius: 18px;
+  height: 572px;
+  width: 440px;
+}
+
+.contact-form-section .form-card form {
+  display: flex;
+  flex-direction: column;
+  margin: 48px;
+}
+
+.contact-form-section .form-card form input,
+.contact-form-section .form-card form select {
+  border: 1px solid #8F9BB3;
+  border-radius: 10px;
+  height: 40px;
+  margin-bottom: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.contact-form-section .form-card form button {
+  border-radius: 34px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+}
+
+.contact-form-section .form-card form button img {
+  animation: spin 2s linear infinite;
+  display: none;
+  width: 16px;
+}
+
+.contact-form-section .form-card form button:hover {
+  cursor: pointer;
+}
+
+.contact-form-section .form-card form button:disabled {
+  background-color: #979797;
+  cursor: auto;
+}
+
+.contact-form-section .form-card form button:disabled b {
+  display: none;
+}
+
+.contact-form-section .form-card form button:disabled img {
+  display: initial;
+}
+
+.contact-form-section .form-card .form-thank-you {
+  display: none;
+}
+
+.contact-form-section .form-card .form-thank-you img {
+  margin-bottom: 60px;
+  width: 200px;
+}
+
+.contact-form-section .form-card .form-thank-you p {
+  margin: 0 24px;
+  text-align: center;
+}
+
+.contact-form-section .form-card .form-thank-you p:nth-of-type(2) {
+  font-size: 24px;
+}
+
+.contact-form-section .form-card .form-thank-you > p {
+  margin-bottom: 16px;
+}
+
+
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform:rotate(360deg);
+  }
+}
+
+/** Footer **/
+.footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 48px;
+  padding-top: 48px;
+}
+
+.footer img {
+  height: 54px;
+  margin-bottom: 24px;
+  width: 71px;
+}
+
+.footer img.ic-social-network {
+  margin-right: 16px;
+  height: 20px;
+  width: 20px;
+}
+
+.footer div {
+  display: flex;
+}
+
+.footer p {
+  color: white;
+  margin-right: 24px;
+}
+
+.footer p a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Background Color */
+.bg--black {
+  background-color: #102A51;
+}
+
+.bg--blue {
+  background-color: #2565C7;
+}
+
+/* Buttons */
+.btn--blue {
+  background: #2565C7;
+  border: 0;
+  color: white;
+}
+
+.btn--light-blue {
+  background: #ebf1fa;
+  border: 2px solid #2565C7;
+  color: #2565C7;
+}
+
+/* Font Color */
+.txt--black {
+  color: #102A51;
+}
+
+.txt--blue {
+  color: #2565C7;
+}
+
+.txt--green {
+  color: #00E096;
+}
+
+.txt--white {
+  color: white;
+}
+
+/* Font Size */
+.title-1 {
+  font-size: 64px;
+}
+
+.title-2 {
+  font-size: 60px;
+}
+
+.title-3 {
+  font-size: 40px;
+}
+
+.title-4 {
+  font-size: 24px;
+}
+
+.text-1 {
+  font-size: 28px;
+}
+
+.text-2 {
+  font-size: 18px;
+}
+
+.text-3 {
+  font-size: 16px;
+}
+
+/* ul bullet */
+.benefits ul {
+  list-style: none;
+}
+
+.benefits ul li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #2565C7; /* Change the color */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}

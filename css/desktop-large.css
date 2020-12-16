@@ -1,0 +1,61 @@
+@media (min-width: 1440px) {
+  .navbar .btn--demo, .navbar .btn--login {
+    font-size: 14px;
+  }
+
+  .hero .title-mobile {
+    display: none;
+  }
+
+  .hero--text-container .secondary .description-text-mobile {
+    display: none;
+  }
+
+  .hero .img-container {
+    height: 1260px;
+  }
+
+  .hero .img-container > img:nth-child(1) {
+    display: none;
+  }
+
+  .hero .hero--text-container .secondary iframe {
+    height: 383px;
+    width: 676px;
+  }
+
+  .company-features .features-container .feature .image-container {
+    min-width: 88px;
+  }
+
+  .company-features .features-container > img {
+    margin-left: 80px;
+  }
+
+  .company-features .features-container .feature {
+    width: 550px;
+  }
+
+  .collaborator-features .container .features-container .img-collaborator-mobile {
+    display: none;
+  }
+
+  .collaborator-features .container .features-container .img-collaborator-desktop {
+    height: 777px;
+    width: 389px;
+  }
+
+  .benefits-section .description-mobile {
+    display: none;
+  }
+
+  .benefits-section img:nth-of-type(2) {
+    transform: translateX(80px) translateY(-830px) translateZ(1px) scale(0.20);
+    transform-origin: 0 0;
+  }
+
+  .benefits-section img:nth-of-type(4) {
+    transform-origin: 0 0;
+    transform: translateX(750px) translateY(-5500px) translateZ(1px) scale(0.20);
+  }
+}

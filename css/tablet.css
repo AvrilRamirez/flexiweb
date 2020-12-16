@@ -1,0 +1,103 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .hero--text-container .secondary .description-text-mobile {
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+
+  .hero .hero--text-container .secondary iframe {
+    width: 400px;
+    height: 200px;
+  }
+
+  .brand img:nth-of-type(1) {
+    transform: translate(60px, 160px);
+    transform-origin: 0 0;
+    height: 127px;
+  }
+
+  .brand img:nth-of-type(2) {
+    transform: translate(-125px, 10px);
+    transform-origin: 0 0;
+    height: 100px;
+  }
+
+  .brand img:nth-of-type(3) {
+    display: block;
+    transform: translate(500px, -30px);
+    transform-origin: 0 0;
+    height: 150px;
+  }
+
+  .brand img:nth-of-type(4) {
+    transform: translate(710px, -200px);
+    transform-origin: 0 0;
+    height: 150px;
+  }
+
+
+  .benefits-section img:nth-of-type(1) {
+    transform: translate(-200px, 10px) scale(0.25);
+  }
+
+  .benefits-section img:nth-of-type(2) {
+    display: initial;
+  }
+
+  .benefits-section img:nth-of-type(3) {
+    transform: translate(300px, -4100px) scale(0.25);
+  }
+
+  .benefits-section img:nth-of-type(4) {
+    transform: translateX(600px) translateY(-5650px) scale(0.20);
+  }
+
+  .benefits .cards-container .card .header {
+    align-items: center;
+    margin-bottom: 22px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .benefits .cards-container .card .header img {
+    margin: 0;
+  }
+
+  .collaborator-features, .collaborator-features .container {
+    height: 700px;
+  }
+
+  .company-features .features-container img {
+    height: auto;
+    width: 90%;
+  }
+
+  .company-features .features-container > div {
+    justify-content: space-between;
+  }
+
+  .collaborator-features .features-container img {
+    height: 400px;
+    width: 400px;
+  }
+
+  .collaborator-features .features-container .feature {
+    min-width: 200px;
+  }
+
+  .contact-form-section .description p {
+    display: block;
+  }
+
+  .contact-form-section .form-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-form-section .form-card form {
+    width: 50%;
+  }
+
+  .footer div, .footer div:nth-of-type(2) {
+    font-size: 16px;
+  }
+}

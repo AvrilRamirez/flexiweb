@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 59 (101010) - https://sketch.com -->
+    <title>4E36CEB8-6567-46D4-80E0-130019730B26</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M16,0 C16.55,0 17,0.45 17,1 L17,1 L17,15 C17,15.55 16.55,16 16,16 L16,16 L14,16 C13.45,16 13,15.55 13,15 C13,14.45 13.45,14 14,14 L14,14 L15,14 L15,2 L14,2 C13.45,2 13,1.55 13,1 C13,0.45 13.45,0 14,0 L14,0 Z M7.3998,3.2004 C7.8438,2.8694 8.4688,2.9594 8.7998,3.4004 L8.7998,3.4004 L11.7998,7.4004 C12.0598,7.7464 12.0678,8.2204 11.8178,8.5754 L11.8178,8.5754 L9.0038,12.5754 C8.8088,12.8524 8.4998,13.0004 8.1848,13.0004 C7.9868,13.0004 7.7858,12.9414 7.6108,12.8184 C7.1588,12.5004 7.0498,11.8764 7.3678,11.4244 L7.3678,11.4244 L9.0858,8.9824 C9.0558,8.9854 9.0298,9.0004 8.9998,9.0004 L8.9998,9.0004 L0.9998,9.0004 C0.4478,9.0004 -0.0002,8.5524 -0.0002,8.0004 C-0.0002,7.4474 0.4478,7.0004 0.9998,7.0004 L0.9998,7.0004 L8.9998,7.0004 L7.1998,4.5994 C6.8688,4.1584 6.9578,3.5314 7.3998,3.2004 Z" id="path-1"></path>
+    </defs>
+    <g id="Landing-UI-—-Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Landing" transform="translate(-1154.000000, -48.000000)">
+            <g id="02)-Button:-Text-+-★/4)-48px---Large/3)-Ghost/1)-Primary-(-★-—-)" transform="translate(1137.000000, 32.000000)">
+                <g id="Icon" transform="translate(17.000000, 16.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="🎨-Icon-Сolor" fill="#2565C7" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

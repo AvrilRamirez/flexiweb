@@ -1,0 +1,454 @@
+@media screen and (min-width: 0px) and (max-width: 374px) {
+  /** Helper classes **/
+  .title-2 {
+    font-size: 40px;
+  }
+
+  .title-3 {
+    font-size: 24px;
+  }
+
+  .title-4 {
+    font-size: 18px;
+  }
+
+  /** Navbar **/
+  .navbar img {
+    height: 32px;
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 118px;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  /** Hero **/
+  .hero .img-container > img:nth-child(2) {
+    display: none;
+  }
+
+  .hero .img-container img {
+    height: 533px;
+    margin-bottom: 74px;
+    width: 260px;
+  }
+
+  .hero .title-mobile h1 {
+    text-align: center;
+  }
+
+  .hero .title-mobile h1:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .hero .title-mobile h1:nth-of-type(2) {
+    margin-top: 0;
+  }
+
+  .hero .img-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero .title-desktop {
+    display: none;
+  }
+
+  .hero .description {
+    display: none;
+  }
+
+  .hero .hero--text-container .secondary {
+    padding-bottom: 37px;
+    padding-top: 37px;
+    text-align: center;
+  }
+
+  .hero .hero--text-container .secondary h1 {
+    margin-top: 0;
+  }
+
+  .hero .hero--text-container .secondary iframe {
+    height: 168px;
+    margin-top: 32px;
+    width: 310px;
+  }
+
+  .hero .secondary .description-text-desktop {
+    display: none;
+  }
+
+  .hero .secondary .description-text-mobile {
+    display: block;
+  }
+
+  /** Brand **/
+
+  .brand {
+    height: 240px;
+  }
+
+  .brand .description-container {
+    margin: 0;
+  }
+
+  .brand img:nth-of-type(1) {
+    transform: translate(60px, 160px);
+    transform-origin: 0 0;
+    height: 127px;
+  }
+
+  .brand img:nth-of-type(2) {
+    transform: translate(-125px, 10px);
+    transform-origin: 0 0;
+    height: 100px;
+  }
+
+  .brand img:nth-of-type(3) {
+    display: none;
+    transform-origin: 0 0;
+  }
+
+  .brand img:nth-of-type(4) {
+    transform: translate(175px, 10px);
+    transform-origin: 0 0;
+    height: 150px;
+  }
+
+  .brand .description-container {
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .brand .description-container h2 {
+    font-size: 40px;
+  }
+
+  .brand .description-container h2:first-of-type {
+    margin-bottom: 0;
+  }
+
+  .brand .description-container h2:last-of-type {
+    margin-top: 0;
+  }
+
+  /** Benefits **/
+  .benefits {
+    padding-top: 37px;
+  }
+
+  .benefits h2 {
+    margin-left: 44px;
+    text-align: left;
+  }
+
+  .benefits .cards-container {
+    overflow: scroll;
+    padding: 10px;
+  }
+
+  .benefits .cards-container .card:first-of-type {
+    margin-left: 0;
+  }
+
+  .benefits .cards-container .card:last-of-type {
+    margin-right: 10px;
+  }
+
+  .benefits .cards-container .card {
+    padding: 24px;
+    width: 253px;
+  }
+
+  .benefits .cards-container .card ul {
+    font-size: 15px;
+    margin: 0;
+    padding-inline-start: 18px;
+  }
+
+  .benefits .cards-container .card ul li {
+    margin-bottom: 16px;
+  }
+
+  .benefits .cards-container .card .header {
+    align-items: center;
+    display: flex;
+    margin-bottom: 22px;
+    justify-content: flex-start;
+  }
+
+  .benefits .cards-container .card .header img {
+    margin-right: 12px;
+    margin-left: unset;
+    height: 19px;
+    width: 19px;
+  }
+
+  .benefits .cards-container .card .header h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+
+  /** Company Features **/
+  .company-features {
+    padding-left: 32px;
+  }
+
+  .company-features .description {
+    padding-top: 56px;
+    margin-bottom: 32px;
+  }
+
+  .company-features .description h2 {
+    font-size: 28px;
+  }
+
+  .company-features .description p {
+    font-size: 15px;
+  }
+
+  .company-features .features-container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 73px;
+  }
+
+  .company-features .features-container > div {
+    display: flex;
+    overflow: scroll;
+  }
+
+  .company-features .features-container > img {
+    margin-bottom: 32px;
+  }
+
+  .company-features .features-container img {
+    height: 100%;
+    width: 205%;
+  }
+
+  .company-features .features-container .feature {
+    display: flex;
+    margin-right: 24px;
+  }
+
+  .company-features .features-container .feature .image-container {
+    border-radius: 8px;
+    height: 36px;
+    width: 36px;
+  }
+
+  .company-features .features-container .feature .image-container img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .company-features .features-container .feature .text-container {
+    padding-left: 12px;
+  }
+
+  .company-features .features-container .feature .text-container .text-1 {
+    font-size: 18px;
+  }
+
+  .company-features .features-container .feature .text-container .text-2 {
+    display: none;
+  }
+
+  /** Collaborators **/
+  .collaborator-features {
+    height: 650px;
+  }
+
+  .collaborator-features .container {
+    height: 650px;
+    padding-left: 32px;
+  }
+
+  .collaborator-features .container .description {
+    margin-bottom: 32px;
+    padding-top: 47px;
+  }
+
+  .collaborator-features .container .description h2 {
+    font-size: 28px;
+  }
+
+  .collaborator-features .container .description p {
+    font-size: 15px;
+  }
+
+  .collaborator-features .features-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .collaborator-features .features-container img {
+    height: 247px;
+    width: 247px;
+  }
+
+  .collaborator-features .features-container .img-collaborator-mobile {
+    align-self: center;
+  }
+
+  .collaborator-features .features-container .img-collaborator-desktop {
+    display: none;
+  }
+
+  .collaborator-features .features-container > div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+    overflow: scroll;
+  }
+
+  .collaborator-features .features-container .feature {
+    display: flex;
+    margin-right: 16px;
+    min-width: 230px;
+  }
+
+  .collaborator-features .features-container .feature .image-container {
+    border-radius: 8px;
+    height: 36px;
+    width: 36px;
+  }
+
+  .collaborator-features .features-container .feature .image-container img {
+    height: 15px;
+    width: 15px;
+  }
+
+  .collaborator-features .features-container .feature .text-container h2 {
+    font-size: 16px;
+  }
+
+  .collaborator-features .features-container .feature .text-container .text-2 {
+    display: none;
+  }
+
+  /** Benefits **/
+  .benefits-section {
+    height: 225px;
+    padding-top: 95px;
+    padding-bottom: 88px;
+  }
+
+  .benefits-section h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .benefits-section img:nth-of-type(1) {
+    transform: translate(-10px, 10px) scale(0.15);;
+  }
+
+  .benefits-section img:nth-of-type(2) {
+    display: none;
+  }
+
+  .benefits-section img:nth-of-type(3) {
+    transform: translate(0px, -900px) scale(0.25);
+  }
+
+  .benefits-section img:nth-of-type(4) {}
+
+  .benefits-section .description-desktop {
+    display: none;
+  }
+
+  .benefits-section button {
+    font-size: 14px;
+    padding: 8px 20px;
+  }
+
+  /** Contact Form **/
+  .contact-form-section {
+    flex-direction: column;
+    padding-left: 41px;
+    padding-top: 56px;
+    padding-right: 41px;
+  }
+
+  .contact-form-section .description {
+    margin-bottom: 32px;
+  }
+
+  .contact-form-section .description h2:nth-child(1),
+  .contact-form-section .description h2:nth-child(2) {
+    display: block;
+  }
+
+  .contact-form-section .description h2:nth-child(3) {
+    display: none;
+  }
+
+  .contact-form-section .description .title-2 {
+    font-size: 32px;
+  }
+
+  .contact-form-section .description p {
+    display: none;
+  }
+
+  .contact-form-section .form-card {
+    background: transparent;
+    height: initial;
+    width: 100%;
+  }
+
+  .contact-form-section .form-card form {
+    margin: 0;
+  }
+
+  .contact-form-section .form-card form label {
+    color: white;
+  }
+
+  .contact-form-section .form-card .form-thank-you {
+    padding: 20px 0;
+  }
+
+  .contact-form-section .form-card .form-thank-you img {
+    margin-bottom: 15px;
+    width: 150px;
+  }
+
+  /** Footer **/
+  .footer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer img {
+    height: 33px;
+    width: 43px;
+  }
+
+  .footer div {
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    width: 90%;
+  }
+
+  .footer div:nth-of-type(2) {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    margin-top: 16px;
+    width: 90%;
+  }
+
+  .footer p {
+    margin: 0;
+  }
+}

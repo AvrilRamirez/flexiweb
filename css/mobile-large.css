@@ -1,0 +1,19 @@
+@media screen and (min-width: 425px) and (max-width: 1023px) {
+  .benefits-section img:nth-of-type(1) {
+    transform: translate(-25px, 10px) scale(0.15);
+  }
+
+  .benefits-section img:nth-of-type(4) {
+    transform: translateX(350px) translateY(-2500px) scale(0.20);
+  }
+
+  .brand img:nth-of-type(4) {
+    transform: translate(220px, 10px);
+    transform-origin: 0 0;
+    height: 150px;
+  }
+
+  .benefits-section .description-mobile h2 {
+    padding: 0 41px;
+  }
+}

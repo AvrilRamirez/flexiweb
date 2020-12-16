@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "harmonia-sans";
+  src: url("../fonts/Harmonia\ Sans/HarmoniaSansProCyr-Bold.otf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "harmonia-sans";
+  src: url("../fonts/Harmonia\ Sans/HarmoniaSansProCyr-SemiBd.otf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "harmonia-sans";
+  src: url("../fonts/Harmonia\ Sans/HarmoniaSansProCyr-Regular.otf");
+}

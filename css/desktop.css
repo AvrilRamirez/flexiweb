@@ -1,0 +1,142 @@
+@media (min-width: 992px) {
+  .navbar {
+    align-items: center;
+    background: white;
+    display: flex;
+    height: 110px;
+    left: 0;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .navbar img {
+    margin-left: 38px;
+  }
+
+  .navbar ul {
+    align-items: center;
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+  }
+
+  .navbar ul li:nth-child(1) {
+    padding: 13px 33px;
+    padding-right: 0;
+  }
+  
+  .navbar ul li:nth-child(2) {
+    padding: 13px 33px;
+  }
+
+  .navbar ul li:nth-child(3) {
+    padding-right: 23px;
+  }
+
+  .navbar ul li:nth-child(4) {
+    padding-right: 48px;
+  }
+
+  .navbar ul li a {
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .navbar .btn--demo, .navbar .btn--login {
+    border-radius: 50px;
+    font-weight: bold;
+    padding: 12px 32px;
+  }
+
+  .navbar .btn--login {
+    align-items: center;
+    display: flex;
+    padding-left: 16px;
+  }
+
+  .navbar .btn--login img {
+    height: 17px;
+    margin: 0;
+    margin-right: 14px;
+    width: 17px;
+  }
+
+  .hero {
+    display: flex;
+    margin-top: 12rem;
+  }
+
+  .hero .img-container {
+    position: absolute;
+    height: 1335px;
+    padding-left: 128px;
+  }
+
+  .hero .img-container > img:nth-child(1) {
+    display: none;
+  }
+
+  .hero .img-container img {
+    height: 742px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    width: 372px;
+  }
+
+  .hero--text-container {
+    width: 100%;
+  }
+
+  .hero .hero--text-container .main {
+    background: #2565C7;
+  }
+
+  .hero .hero--text-container .main .container{
+    background: white;
+    border-bottom-right-radius: 100px;
+  }
+
+  .hero .hero--text-container .main {
+    margin-left: 564px;
+  }
+
+  .hero .hero--text-container .secondary {
+    padding-left: 564px;
+    border-bottom-right-radius: 100px;
+  }
+
+  .hero .hero--text-container .secondary iframe {
+    margin-top: 64px;
+  }
+
+  .hero .hero--text-container .main .title {
+    margin-bottom: 32px;
+  }
+
+  .hero .hero--text-container .main .title h1 {
+    margin: 0;
+  }
+
+  .hero .hero--text-container .main .description {
+    padding-bottom: 210px;
+  }
+
+  .hero .hero--text-container .main .description p {
+    margin: 0;
+    max-width: 706px;
+  }
+
+  .hero .hero--text-container .secondary {
+    padding-top: 160px;
+    padding-bottom: 202px;
+  }
+
+  .hero .hero--text-container .secondary p {
+    margin: 0;
+    max-width: 706px;
+  }
+}
